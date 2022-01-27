@@ -21,6 +21,18 @@ const Navbar = () => {
                     <li>
                         <a href='#'>Events</a>
                     </li>
+                    <li>
+                        <a href='#'>Mentors</a>
+                    </li>
+                    <li>
+                        <a href='#'>Login</a>
+                    </li>
+                    <li>
+                        <a href='#'>Contact us</a>
+                    </li>
+                    <li>
+                        <a href='#'>Help</a>
+                    </li>
                 </ul>
             </div>
         </nav>

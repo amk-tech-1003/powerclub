@@ -28,7 +28,7 @@ li {
   width: 100%;
   height: 7rem;
   display: grid;
-  grid-template-columns: 2rem 5fr 5fr 1fr 2rem;
+  
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     background-color: #13161d;
@@ -39,9 +39,11 @@ li {
 .logo {
   display: grid;
   /* background-color: #3b5998; */
-  grid-column: 2/3;
-  justify-content: start;
-  align-items: center;
+  
+  justify-content:left;
+  
+ 
+  
 }
 
 .menu-link {
@@ -56,7 +58,11 @@ li {
   text-decoration: none;
   
 }
+.menu-link{
+  text-align: right;
+  
 
+}
 
 
 
@@ -79,6 +85,7 @@ li {
 
 .menu-link ul li {
   font-size: 1.8rem;
+  
 }
 
 .menu-link ul li a {
@@ -118,6 +125,7 @@ li {
   }
 
   .menu-link {
+    
     display: none;
   }
 
