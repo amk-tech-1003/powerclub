@@ -1,0 +1,83 @@
+.all-sides{
+    padding-top: 7rem;
+}
+
+.Sidebar{
+    float: Left;
+    height: 100vh;
+    background-color: #13161d;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    overflow-y: hidden;
+    
+}
+
+.Sidebar1{
+    float: right;
+    height: 100vh;
+    background-color: #13161d;
+    width: 300px;
+    padding-top: 200px;
+    position: fixed; 
+  margin-left: 1025px;
+  overflow-y:hidden;
+}
+
+Body{
+    margin:0;
+    padding: 0;
+}
+.breaks{
+    padding-top: 2px;
+}
+
+
+.avatar-image{
+    padding-top: 30px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.usernames{
+    color: azure;
+    font-size: large;
+    
+}
+
+.menus{
+    color: azure;
+    font-size: large;
+    padding:10px;
+    
+}
+
+.courses{
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color:#13161d ;
+    color: azure;
+    padding: 10px;
+}
+
+.avatar{
+    padding-bottom: 30px;
+}
+
+.donate-button{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 100;
+}
+.butt{
+    font-size: larger;
+}
+.icons{
+    color: azure;
+    
+}
