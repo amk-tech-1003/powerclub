@@ -273,7 +273,7 @@ const Home = () => {
                                 <div className='link-inst'>
                                     
                                         <BsInstagram size="2.5rem"/>
-                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         <BsLinkedin size="2.5rem"/>
                                        
                                     
