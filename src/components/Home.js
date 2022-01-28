@@ -13,8 +13,10 @@ import bt1 from './assests/batch1.png'
 import bt2 from './assests/batch2.png'
 import bt3 from './assests/batch3.png'
 import bt4 from './assests/batch4.png'
-
-
+import { BsLinkedin } from "react-icons/bs";
+import { BsWhatsapp } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+import {BsEnvelopeOpen} from "react-icons/bs"
 
 const Home = () => {
     return (
@@ -161,7 +163,52 @@ const Home = () => {
                             <div className='heading'>
                                 COMMUNITY REVIEWS
                             </div>
-                        </div>
+                            <div className='comm'>
+                                <center>
+                                <Row>
+                                    <Col>
+                                    <div className='member'>
+                                        <div className='mem-image'>
+
+                                        </div>
+                                        <div className='mem-name'>
+                                            Aditya Raut
+                                        </div>
+                                        <div className='mem-review'>
+                                        My experience with peerpowerclub was very good and I learn lot of technical stuff from my instructor.
+                                        </div>
+                                    </div>
+                                    </Col>
+                                    <Col>
+                                    <div className='member'>
+                                        <div className='mem-image'>
+
+                                        </div>
+                                        <div className='mem-name'>
+                                            Shubhaji Taneja
+                                        </div>
+                                        <div className='mem-review'>
+                                        Peer power club is really awesome. You can join and learn a new skills which is necessary in today’s era. This club is really innovative to join and learn to grow yourself.
+                                        </div>
+                                    </div>
+                                    </Col>
+                                    <Col>
+                                    <div className='member'>
+                                        <div className='mem-image'>
+
+                                        </div>
+                                        <div className='mem-name'>
+                                            Kanika Khosla
+                                        </div>
+                                        <div className='mem-review'>
+                                        I am over welmed by the skills imparted by the team. Thanks to the dedication of Peer Power Club for going an extra mile every now and then!
+                                        </div>
+                                    </div>
+                                    </Col>
+                                </Row>
+                                </center>
+                            </div>
+                        </div>  {/* End of community reviews */}
 
 
                         <div className='adore'>
@@ -176,26 +223,66 @@ const Home = () => {
                                         <center>
                                         <Row>
                                         <Col>
-                                        1
+                                        <div className='adore-icons1'>
+                                        <BsWhatsapp size="2.5em"/>
+                                        <span className='wtsp'>Join Us</span>
+                                        </div>
                                         </Col>
                                         <Col>
-                                        2
+                                        <div className='adore-icons2'>
+                                        <BsLinkedin size="2.5em"/>
+                                        <span className='wtsp'>LinkedIn</span>
+                                        </div>
                                         </Col>
                                         <Col>
-                                        3
+                                        <div className='adore-icons3'>
+                                        <span className='wtsp'>Linktree</span>
+                                        </div>
                                         </Col>
                                         </Row>
                                         </center>
                                 </div>
                             </div>
-                        </div>
+                        </div> {/* end of Adore */}
 
 
                         <div className='contact'>
                             <div className='heading'>
                                A COMMUNITY YOUR WILL ADORE BEING PART OF!
                             </div>
-                        </div>
+                            <center>
+                            <div className='contact-box'>
+                                <div className='contact-head'>
+                                <b>COMMUNICATE WITH US ANYTIME ANYWHERE</b>
+                                </div>
+                                <div className='contact-desc'>
+                                GET IN TOUCH AND LET US KNOW HOW WE CAN HELP
+                                </div>
+                                <hr className='lines'/>
+                                <br/>
+                                <div className='joins'>
+                                <BsWhatsapp size="2.5em"/>
+                                        <span className='wtsp'>Join Us</span>
+                                </div>
+                                <br/>
+                                <div className='emails'>
+                                <BsEnvelopeOpen/>&nbsp;&nbsp;
+                                info@peerpower.club
+                                </div>
+                                <br/>
+                                <div className='link-inst'>
+                                    
+                                        <BsInstagram size="2.5rem"/>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <BsLinkedin size="2.5rem"/>
+                                       
+                                    
+                                    
+                                    
+                                </div>
+                            </div>
+                            </center>
+                        </div> {/* end of contact */}
 
                         </div> {/* white part ends */}
 
