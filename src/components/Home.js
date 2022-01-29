@@ -6,7 +6,6 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import homes from './assests/home1.png'
-import { Navbar } from 'react-bootstrap'
 import Navbars from './Navbar.js'
 import peereffect from './assests/peereffect.png'
 import bt1 from './assests/batch1.png'
@@ -275,17 +274,13 @@ const Home = () => {
                                         <BsInstagram size="2.5rem"/>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         <BsLinkedin size="2.5rem"/>
-                                       
-                                    
-                                    
-                                    
+
                                 </div>
                             </div>
                             </center>
                         </div> {/* end of contact */}
 
                         </div> {/* white part ends */}
-
         </div>
     )
 }
