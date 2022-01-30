@@ -12,6 +12,69 @@
     display:flex;
 }
 .white-part{
-    padding-left:35rem;
-    padding-right: 35rem;
+    padding-left:30rem;
+    padding-right: 30rem;
+    padding-top: 3.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.cirs{
+    width: 106px;
+    height: 106px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: grey;
+    border-width: 6px;
+    font-size: 12px;
+    color: black;
+    padding-top: 1rem;
+}
+.heads{
+    font-size: 20px;
+    text-align: center;
+}
+
+.heads-box{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 8rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.butns{
+    align-content: center;
+}
+
+.boxings{
+    height: 340px;
+    width: 230px;
+    border-style: ridge;
+}
+
+.box-content{
+    
+    font-weight: 400;
+    font-size: 13px;
+    color:black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+
+}
+.why-join{
+    height: 763px;
+    background-color: #C4C4C4;
+}
+
+.join-head{
+    font-size: 24px;
+    text-align: center;
+}
+
+.join-patch{
+    height: 162px;
+    width: 163px;
+    background-color: white;
 }

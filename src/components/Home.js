@@ -16,6 +16,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import {BsEnvelopeOpen} from "react-icons/bs"
+import Footer from './Footer.js'
 
 const Home = () => {
     return (
@@ -25,6 +26,7 @@ const Home = () => {
             <SideBars/>
             </div>
             <div className='main-white'>
+            
             <div className='heading'>
             INDIA’S FIRST MARKETPLACE FOR PEER BATCHES
             </div>  
@@ -279,6 +281,11 @@ const Home = () => {
                             </div>
                             </center>
                         </div> {/* end of contact */}
+
+                        <div>
+                            <br/>
+                            <Footer/>
+                        </div>
 
                         </div> {/* white part ends */}
         </div>

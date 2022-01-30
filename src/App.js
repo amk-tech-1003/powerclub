@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
    
-    <Footer/>
+    <PeerBatches/>
     </>
   )
 }
