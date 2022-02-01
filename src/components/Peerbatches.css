@@ -64,17 +64,34 @@
 
 }
 .why-join{
-    height: 763px;
+    height: 500px;
     background-color: #C4C4C4;
+    padding-top: 80px;
 }
 
 .join-head{
-    font-size: 24px;
+    padding-top: 110px;
+    font-size: 30px;
     text-align: center;
+    width: 350px;
+    
 }
 
 .join-patch{
     height: 162px;
     width: 163px;
     background-color: white;
+   
+}
+
+.join-content{
+   
+}
+
+.join-head-content{
+    text-align: center;
+    font-size: 16px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: black;
 }

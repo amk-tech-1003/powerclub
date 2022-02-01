@@ -19,6 +19,7 @@ const Home = () => {
             
             
             <div className='white-part'>
+                <br/>
             <div className='heading'>
                 PEER LIVE BATCHES
             </div>
@@ -178,30 +179,47 @@ there is to know about stocks, shares and trading.
                     <b>Why you should join</b> 
                      <br/>Peer-Batches?
                     </div>
+                    <div className='join-head-content'>
+                    Look at some of the feedback from the students who have learnt from us
+                    </div>
                     </Col>
                     <Col>
+                    <div className='join-content'>
+                        <Row>
+                            <div className='join-patch'>
+
+                            </div>
+                        </Row>
+                        <br/>
+                        <Row>
+                            <div className='join-patch'>
+                                
+                            </div>
+                        </Row>
+                    </div>
                     
+                    </Col>
+                    <Col>
+                    <div className='join-content'>
                         <Row>
-                            <Col>
-                            <div className='join-patch'></div>
-                            </Col>
-                            <Col>
-                            <div className='join-patch'></div>
-                            </Col>
+                            <div className='join-patch'>
+
+                            </div>
                         </Row>
+                        <br/>
                         <Row>
-                            <Col>
-                            <div className='join-patch'></div>
-                            </Col>
-                            <Col>
-                            <div className='join-patch'></div>
-                            </Col>
+                            <div className='join-patch'>
+                                
+                            </div>
                         </Row>
-                   
+                    </div>
+                    
                     </Col>
                 </Row>
+                
             </div>{/*why join ends */}
-
+            <br/>
+            
             <div className='foots'>
                 <Footer/>
             </div>
